@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    font-size: 30;
+    font-weight: bold;
+    letter-spacing: 2;
+    padding-top: 20px;
+}
+#top-image {
+    border-style: outset;
+    background-color: #ffff00;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    float: right;
+    padding: 50px;
+    margin-right: 150px;
+    margin-top: 20px;
+
+}
+figcaption {
+    float: right ;
+    /* position: relative; */
+    margin-left: 50px;
+    text-align: right;
+    font-size: 70%;
+}
+#header {
+    /* border: .5px solid rgba(58, 21, 189, 0.1); */
+    height:180px;
+    background-color: rgba(58, 21, 189, 0.1);
+    width:100%;
+}
+ body {
+     position: relative;
+     background-color: #fff;
+ }   
+    
+.paratext {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 200px;
+    height: 10px;
+}
+.section-one {
+    background-color: rgba(58, 21, 189, 0.1);
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+}
+.section-two {
+    background-color: rgba(58, 21, 189, 0.1);
+    width: 500px ;
+    margin: 10px;
+    padding: 10px;
+}
+#history {
+    display: flex;
+    width: 100%;    
+}
+.first-box {
+    background-color: #ffffff;
+    color: rgb(79, 146, 146);
+    margin:10px;
+    padding: 5px;
+    padding: 5px 20px 5px 50px;
+}
+.second-box {
+    background-color: #fff;
+    color: rgb(79, 146, 146);
+    margin:10px;
+    padding: 5px 20px 5px 50px;
+}

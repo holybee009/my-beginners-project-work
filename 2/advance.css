@@ -1,0 +1,55 @@
+#main-design {
+  transform: translate(200px, -20px);
+  background-color: #fff;
+  margin-right: 500px;
+  height: 100rem;
+  position: relative;
+}
+body {
+  background-color: green;
+}
+h1 {
+  letter-spacing: 5cqmin;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.top {
+  background-color: rgba(0, 0, 255, 0.6);
+  border-radius: 10px;
+}
+.beauty {
+  color: #fff;
+  letter-spacing: 3cqmin;
+  text-align: center;
+  margin-top: 0px;
+  height: 50px;
+}
+.side {
+  float: right;
+  transform: translate(-50px, 0px);
+}
+.css {
+  color: red;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  height: 10px;
+  height: 0px;
+}
+.design {
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 3px;
+}
+.center {
+  background-color: yellow;
+  width: fit-content;
+  padding: 10px;
+  margin-top: -30px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border-bottom: 50px;
+}

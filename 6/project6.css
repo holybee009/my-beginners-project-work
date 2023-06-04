@@ -1,0 +1,141 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(187, 145, 187, 0.664),
+      rgba(128, 0, 128, 0.692)
+    ),
+    url(img/sitting.jpg);
+  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 70%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  height: 100vh;
+  transform: translate(0px 70px);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.subside-bar {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  margin: 2rem 6rem 2rem 2rem;
+}
+.nav-items1 {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  height: 24px;
+  width: 24px;
+  fill: rgb(235, 235, 20);
+  stroke: none;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-family: sans-serif;
+  width: 20rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.btn-first {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
+}
+
+.btn-second {
+  background-color: rgba(90, 29, 90, 0.842);
+  color: #fff;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
+}
+
+h1 + p {
+  width: 25rem;
+  font-size: 1.03rem;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+}
+
+h1 + p::first-letter {
+  text-transform: uppercase;
+}
+
+.btn-start {
+  background-color: rgba(90, 29, 90, 0.842);
+  color: #fff;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
+  width: 15.6rem;
+  margin: 1.2rem 0rem 3.5rem;
+}
+
+blockquote p {
+  text-align: start;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+}
+
+blockquote {
+  margin: 0px;
+  width: 25rem;
+}
+
+img {
+  border-radius: 50%;
+  width: 4.02rem;
+}
+
+.last-part {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.mike {
+  line-height: 0.3rem;
+}
+
+.mike1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.mike1 + p {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
